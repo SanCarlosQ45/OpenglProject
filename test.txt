@@ -1,0 +1,15 @@
+define e ellipse 50 10
+#hello
+define c circle 50
+define s square 50
+define t triangle 10 50 20 50 15 75
+define rt right_triangle 10 15
+define tex text Fixed-8x13 hello world
+moveby 50
+draw red c 100 100
+draw blue e 200 200
+draw green t 300 200 
+draw purple rt 350 200
+draw red s 400 200
+draw green tex 300 350
+
